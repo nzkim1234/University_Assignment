@@ -31,12 +31,11 @@ for i in range(len_parity_bit):
 
     if count_1 % 2 != 0:
         err = True
-    
+
+print("입력된 해밍코드: " + "".join(map(str,bits)))
 if err:
     parity_bit.reverse()
-    print(parity_bit)
     err_bit = int("0b" + "".join(map(str,parity_bit)),2)
-    print(err_bit)
     if bits[err_bit - 1] == 1:
         bits[err_bit - 1] = 0
     else:

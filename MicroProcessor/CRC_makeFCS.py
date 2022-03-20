@@ -7,7 +7,6 @@ bits = list(map(int, map(str, stdin.readline().strip())))
 fcs_msb = deque([0])
 fcs_rest = deque([0] * 2)
 print("입력된 비트열: " + "".join(map(str, bits)))
-print("".join(map(str, fcs_msb + fcs_rest)))
 
 for i in bits:
     if fcs_msb.popleft() != i:
