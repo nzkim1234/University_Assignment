@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw3</title>
+    <style>
+        body{
+            background-image: url('aa.jpeg');
+            background-size: contain;
+            font-style:italic;
+            color :aqua;
+            font-size: large;
+        }
+        .dotted {
+            border-style: dotted;
+            font-style: inherit;
+        }
+        .dashed {
+            border-style: dashed;
+            font-style: inherit;
+        }
+        .double {
+            border-style: dotted;
+            font-style: inherit;
+        }
+        .groove {
+            border-style: groove;
+            font-style: inherit;
+        }
+        .ridge {
+            border-style: ridge;
+            font-style: inherit;
+        }
+        .inset {
+            border-style: inset;
+            font-style: inherit;
+        }
+        .outset {
+            border-style: outset;
+            font-style: inherit;
+        }
+        .mix {
+            border-style: dotted dashed ridge;
+            font-style: inherit;
+        }
+        .inherit{
+            font-style: inherit;
+        }
+        .initial {
+            font-style: initial;
+        }
+
+        #box-grid {
+            display:grid;
+        }
+        #box-flexbox {
+            display:flexbox;
+        }
+        #box-compact {
+            display:compact;
+        }
+    </style>
+</head>
+<body>
+    <h1>inherit, initial, dorder(dotted, dashed, groove, double, ridge, inset, outset, mix)</h1>
+    <br>
+    <h1>display(compact, flexbox, grid), background-size(contain) 실습</h1>
+    <div class="inherit">상속 폰트 스타일</div>
+    <p class="dotted">dotted의 보더 스타일</p>
+    <p class="dashed">dashed의 보더 스타일</p>
+    <div id = "box-grid">grid 형식 디스플레이</div>
+    <p class="double">double의 보더 스타일</p>
+    <p class="groove">groove의 보더 스타일</p>
+    <p class="ridge">ridge의 보더 스타일</p>
+    <div id = "box-flexbox">flexbox 형식 디스플레이</div>
+    <p class="inset">inset의 보더 스타일</p>
+    <p class="outset">outset의 보더 스타일</p>
+    <p class="mix">mixed의 보더 스타일</p>
+    <div class="initial">상속 폰트 스타일</div>
+    <div id = "box-compact">compact 형식 디스플레이</div>
+</body>
+</html>
