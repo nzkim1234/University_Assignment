@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Main</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../css/w3.css">
+<link rel="stylesheet" href="../css/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/base.css">
+<style>
+  * {
+      outline: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      width: 100%;
+      height: 100%;
+    }
+
+    canvas {
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      position: relative;
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #ffffff;
+      z-index: 56;
+      position: relative;
+    }
+
+
+</style>
+</head>
+<body>
+  <div style="z-index: 0; position: absolute;">
+    <script type="module" src="../js/app.js"></script>
+  </div>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Main</a>
+    <a href="./about_me.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Me</a>
+    <a href="./music.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Music I Like</a>
+    <a href="./picture.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Picture</a>
+    <a href="./utility.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Utils</a>
+  </div>
+</div>
+
+<div class="w3-main">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">20181509_김보윤 웹 프로그래밍 프로젝트</h1>
+      <h2 class="w3 text-anchor">
+      <p>
+        이 사이트는 김보윤이라는 사람에 대한 사이트입니다.
+        <br>
+        상단 바를 통하여 이동 할 수 있습니다.
+        <br>
+        About Me 에서는 김보윤이라는 사람에 대하여 알 수 있습니다.
+        <br>
+        Music I Like 에서는 김보윤이 좋아하는 노래들을 볼 수 있습니다.
+        <br>
+        Picture 에서는 김보윤의 사진을 볼 수 있습니다.
+        <br>
+        Utils 에서는 각종 유용한 기능을 확인 할 수 있습니다.
+      </p>
+      </h2>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="../image/mainp.jpeg" height="300px">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
